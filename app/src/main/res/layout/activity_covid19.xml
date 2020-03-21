@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".covid19">
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <VideoView
+            android:id="@+id/animation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_y="100dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more details,"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:layout_y="430dp"
+            android:paddingLeft="20sp"
+
+            />
+
+        <Button
+            android:id="@+id/webbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textStyle="bold"
+            android:layout_y="420dp"
+            android:layout_x="165dp"
+            />
+
+    </AbsoluteLayout>
+
+
+</LinearLayout>

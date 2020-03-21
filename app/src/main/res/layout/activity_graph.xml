@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".graph">
+
+    <ImageView
+        android:id="@+id/cases"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/covidcases"
+        android:scaleType="fitCenter"
+
+        />
+
+    <ImageView
+        android:id="@+id/death"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/deathall"
+        android:scaleType="fitCenter"
+
+        />
+
+    <ImageView
+        android:id="@+id/china"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/chinaagedeath"
+        android:scaleType="fitCenter"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on the image for next image"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#ff22"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        />
+
+</FrameLayout>
